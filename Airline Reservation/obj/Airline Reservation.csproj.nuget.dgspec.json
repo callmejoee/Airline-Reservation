@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Airline Reservation\\Airline Reservation\\Airline Reservation.csproj": {}
+    "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj": {}
   },
   "projects": {
-    "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Airline Reservation\\Airline Reservation\\Airline Reservation.csproj": {
+    "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Airline Reservation\\Airline Reservation\\Airline Reservation.csproj",
+        "projectUniqueName": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj",
         "projectName": "Airline Reservation",
-        "projectPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Airline Reservation\\Airline Reservation\\Airline Reservation.csproj",
+        "projectPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj",
         "packagesPath": "C:\\Users\\APPLE\\.nuget\\packages\\",
-        "outputPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Airline Reservation\\Airline Reservation\\obj\\",
+        "outputPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APPLE\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -58,8 +58,8 @@ namespace Airline_Reservation
                 try
                 {
                     newCon.Open();
-                    string query = "INSERT INTO dbo.CUSTOMER values('" + passID.Text + "', '" + firstName.Text + "', '" + lastName.Text + "', '" + city.Text + "', '"  
-                        + country.Text + "', '" + date.Value + "', '" + int.Parse(ssn.Text) + "', '" + email.Text + "', '" + 
+                    string query = "INSERT INTO dbo.CUSTOMER values('" + passID.Text + "', '" + firstName.Text + "', '" + lastName.Text + "', '" + city.Text + "', '"
+                        + country.Text + "', '" + date.Value + "', '" + int.Parse(ssn.Text) + "', '" + email.Text + "', '" +
                         password.Text + "', '" + gender.Text + "', '" + nationality.Text + "')";
                     SqlCommand cmd = new SqlCommand(query, newCon);
                     cmd.ExecuteNonQuery();

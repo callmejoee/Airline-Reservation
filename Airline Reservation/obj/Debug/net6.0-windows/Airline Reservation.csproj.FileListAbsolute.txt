@@ -1,0 +1,15 @@
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.AssemblyReference.cache
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Add_Customer.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.addAircraft.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.addFlight.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Loading.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Login.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Properties.Resources.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Ticket.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.View_Customers.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.View_Flights.resources
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.GenerateResource.cache
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.AssemblyInfoInputs.cache
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.AssemblyInfo.cs
+C:\Users\APPLE\Source\Repos\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.CoreCompileInputs.cache

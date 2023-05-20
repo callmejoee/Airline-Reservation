@@ -21,5 +21,10 @@ namespace Airline_Reservation
         {
             Application.Exit();
         }
+
+        private void Add_Customer_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

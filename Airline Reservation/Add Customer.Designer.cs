@@ -276,6 +276,7 @@
             Name = "Add_Customer";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add_Customer";
+            Load += Add_Customer_Load;
             ResumeLayout(false);
             PerformLayout();
         }

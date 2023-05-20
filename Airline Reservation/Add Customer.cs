@@ -17,7 +17,7 @@ namespace Airline_Reservation
         {
             InitializeComponent();
         }
-
+        SqlConnection newCon = new SqlConnection("Data Source=DESKTOP-IGR9GMI;Initial Catalog=FlightReservationSystem;Integrated Security=True");
         private void label8_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -40,8 +40,6 @@ namespace Airline_Reservation
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
         }
-        SqlConnection newCon = new SqlConnection("Data Source=DESKTOP-IGR9GMI;Initial Catalog=FlightReservationSystem;Integrated Security=True");
-
         private void Add_Customer_Load(object sender, EventArgs e)
         {
 
@@ -74,6 +72,11 @@ namespace Airline_Reservation
                 }
 
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

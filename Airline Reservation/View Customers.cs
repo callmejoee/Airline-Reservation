@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Airline_Reservation
 {
@@ -16,7 +17,7 @@ namespace Airline_Reservation
         {
             InitializeComponent();
         }
-
+        SqlConnection newCon = new SqlConnection("Data Source=DESKTOP-IGR9GMI;Initial Catalog=FlightReservationSystem;Integrated Security=True");
         private void label8_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -60,5 +61,23 @@ namespace Airline_Reservation
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void populate()
+        {
+            newCon.Open();
+            string query = "SELECT * FROM dbo.CUSTOMER";
+            SqlDataAdapter sda = new SqlDataAdapter(query, newCon);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            pass_list.DataSource = ds.Tables[0];
+            newCon.Close();
+        }
+
+        private void View_Customers_Load(object sender, EventArgs e)
+        {
+            populate();
+        }
+        
     }
 }

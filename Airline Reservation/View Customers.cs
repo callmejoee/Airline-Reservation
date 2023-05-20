@@ -85,5 +85,29 @@ namespace Airline_Reservation
             add.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (passIDt.Text == "")
+            {
+                MessageBox.Show("Enter PassengerID");
+            }
+            else
+            {
+                try
+                {
+                    newCon.Open();
+                    string query = "DELETE from dbo.CUSTOMER where CUST_ID =" + "'" + passIDt.Text + "'" + ";";
+                    SqlCommand cmd = new SqlCommand(query, newCon);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Passenger Deleted");
+                    newCon.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
     }
 }

@@ -38,7 +38,7 @@
             label2 = new Label();
             lastName = new TextBox();
             label3 = new Label();
-            passID = new TextBox();
+            passIDt = new TextBox();
             passengerID = new Label();
             label6 = new Label();
             label7 = new Label();
@@ -116,6 +116,7 @@
             button3.TabIndex = 79;
             button3.Text = "Delete";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -167,12 +168,12 @@
             label3.Text = "Last name";
             label3.TextAlign = ContentAlignment.TopCenter;
             // 
-            // passID
+            // passIDt
             // 
-            passID.Location = new Point(222, 53);
-            passID.Name = "passID";
-            passID.Size = new Size(109, 23);
-            passID.TabIndex = 102;
+            passIDt.Location = new Point(222, 53);
+            passIDt.Name = "passIDt";
+            passIDt.Size = new Size(109, 23);
+            passIDt.TabIndex = 102;
             // 
             // passengerID
             // 
@@ -369,7 +370,7 @@
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(passengerID);
-            Controls.Add(passID);
+            Controls.Add(passIDt);
             Controls.Add(label3);
             Controls.Add(lastName);
             Controls.Add(label2);
@@ -401,7 +402,7 @@
         private Label label2;
         private TextBox lastName;
         private Label label3;
-        private TextBox passID;
+        private TextBox passIDt;
         private Label passengerID;
         private Label label6;
         private Label label7;

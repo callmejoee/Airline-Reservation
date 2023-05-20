@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\APPLE\\.nuget\\packages\\": {}
+    "C:\\Users\\alira\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\APPLE\\Source\\Repos\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
+      "projectUniqueName": "C:\\Users\\alira\\OneDrive\\Documents\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
       "projectName": "Airline Reservation",
-      "projectPath": "C:\\Users\\APPLE\\Source\\Repos\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
-      "packagesPath": "C:\\Users\\APPLE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\APPLE\\Source\\Repos\\Airline-Reservation\\Airline Reservation\\obj\\",
+      "projectPath": "C:\\Users\\alira\\OneDrive\\Documents\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
+      "packagesPath": "C:\\Users\\alira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alira\\OneDrive\\Documents\\Airline-Reservation\\Airline Reservation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APPLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

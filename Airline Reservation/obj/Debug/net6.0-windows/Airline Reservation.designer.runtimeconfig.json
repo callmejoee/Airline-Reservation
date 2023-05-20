@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\APPLE\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\APPLE\\.nuget\\packages"
+      "C:\\Users\\alira\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\alira\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

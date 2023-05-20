@@ -78,5 +78,12 @@ namespace Airline_Reservation
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            View_Customers view = new View_Customers();
+            view.Show();
+            this.Hide();
+        }
     }
 }

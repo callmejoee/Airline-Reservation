@@ -55,6 +55,7 @@
             label9 = new Label();
             email = new TextBox();
             pictureBox1 = new PictureBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -176,7 +177,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(360, 477);
+            button1.Location = new Point(270, 472);
             button1.Name = "button1";
             button1.Size = new Size(132, 42);
             button1.TabIndex = 56;
@@ -329,11 +330,23 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(422, 472);
+            button2.Name = "button2";
+            button2.Size = new Size(224, 42);
+            button2.TabIndex = 99;
+            button2.Text = "View Passengers";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Add_Customer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 583);
+            Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(password);
             Controls.Add(label9);
@@ -398,5 +411,6 @@
         private Label label9;
         private TextBox email;
         private PictureBox pictureBox1;
+        private Button button2;
     }
 }

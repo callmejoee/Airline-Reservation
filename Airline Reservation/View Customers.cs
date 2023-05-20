@@ -78,6 +78,12 @@ namespace Airline_Reservation
         {
             populate();
         }
-        
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Add_Customer add = new Add_Customer();
+            add.Show();
+            this.Hide();
+        }
     }
 }

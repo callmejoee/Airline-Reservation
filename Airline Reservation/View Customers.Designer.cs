@@ -56,6 +56,8 @@
             email = new TextBox();
             label9 = new Label();
             password = new TextBox();
+            button1 = new Button();
+            button5 = new Button();
             ((System.ComponentModel.ISupportInitialize)pass_list).BeginInit();
             SuspendLayout();
             // 
@@ -95,11 +97,12 @@
             pass_list.RowTemplate.Height = 25;
             pass_list.Size = new Size(823, 274);
             pass_list.TabIndex = 81;
+            pass_list.CellContentClick += pass_list_CellContentClick;
             // 
             // button4
             // 
             button4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Location = new Point(654, 368);
+            button4.Location = new Point(705, 368);
             button4.Name = "button4";
             button4.Size = new Size(132, 42);
             button4.TabIndex = 80;
@@ -110,7 +113,7 @@
             // button3
             // 
             button3.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Location = new Point(434, 368);
+            button3.Location = new Point(549, 368);
             button3.Name = "button3";
             button3.Size = new Size(132, 42);
             button3.TabIndex = 79;
@@ -121,11 +124,11 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(222, 368);
+            button2.Location = new Point(399, 368);
             button2.Name = "button2";
             button2.Size = new Size(132, 42);
             button2.TabIndex = 78;
-            button2.Text = "Update";
+            button2.Text = "Refresh";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -349,11 +352,35 @@
             password.Size = new Size(132, 23);
             password.TabIndex = 119;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(248, 368);
+            button1.Name = "button1";
+            button1.Size = new Size(132, 42);
+            button1.TabIndex = 121;
+            button1.Text = "Update";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button5
+            // 
+            button5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            button5.Location = new Point(99, 368);
+            button5.Name = "button5";
+            button5.Size = new Size(132, 42);
+            button5.TabIndex = 122;
+            button5.Text = "Select";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
             // View_Customers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(965, 725);
+            Controls.Add(button5);
+            Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(password);
             Controls.Add(label9);
@@ -421,5 +448,7 @@
         private TextBox email;
         private Label label9;
         private TextBox password;
+        private Button button1;
+        private Button button5;
     }
 }

@@ -114,5 +114,57 @@ namespace Airline_Reservation
         {
             populate();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (passIDt.Text == null || ssn.Text == null || email.Text == null || password.Text == null)
+            {
+                MessageBox.Show("Missing Info");
+            }
+            else
+            {
+                try
+                {
+                    newCon.Open();
+                    string query = "UPDATE dbo.CUSTOMER" +
+                        " set CUST_ID ='" + passIDt.Text + "'," + "F_NAME = '" + firstName.Text + "'," +
+                        "L_NAME = '" + lastName.Text + "'," + "CITY = '" +
+                        city.Text + "'," + "COUNTRY ='" + country.Text + "'," +
+                        "DOB = '" + date.Value + "'," + "SSN ='" + int.Parse(ssn.Text) + "'," +
+                        "EMAIL ='" + email.Text + "'," + "PASSWORD ='" + password.Text + "'," +
+                        "GENDER = '" + gender.Text + "'," + "NATIONALITY ='" + nationality.Text + "'" +
+                        "WHERE CUST_ID = '" + passIDt.Text + "';";
+                    SqlCommand cmd = new SqlCommand(query, newCon);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Passenger Updated");
+                    newCon.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void pass_list_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            passIDt.Text = pass_list.SelectedRows[0].Cells[0].Value.ToString();
+            firstName.Text = pass_list.SelectedRows[0].Cells[1].Value.ToString();
+            lastName.Text = pass_list.SelectedRows[0].Cells[2].Value.ToString();
+            city.Text = pass_list.SelectedRows[0].Cells[3].Value.ToString();
+            country.Text = pass_list.SelectedRows[0].Cells[4].Value.ToString();
+            date.Value = (DateTime)pass_list.SelectedRows[0].Cells[5].Value;
+            ssn.Text = pass_list.SelectedRows[0].Cells[6].Value.ToString();
+            email.Text = pass_list.SelectedRows[0].Cells[7].Value.ToString();
+            password.Text = pass_list.SelectedRows[0].Cells[8].Value.ToString();
+            gender.Text = pass_list.SelectedRows[0].Cells[9].Value.ToString();
+            nationality.Text = pass_list.SelectedRows[0].Cells[10].Value.ToString();
+        }
     }
 }

@@ -92,15 +92,5 @@ namespace Airline_Reservation
             home.Show();
             this.Hide();
         }
-
-        private void source_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

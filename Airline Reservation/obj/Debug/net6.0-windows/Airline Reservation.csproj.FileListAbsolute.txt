@@ -96,5 +96,3 @@ D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\A
 D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\ref\Airline Reservation.dll
 E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.adminHome.resources
 E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.userHome.resources
-D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.adminHome.resources
-D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.userHome.resources

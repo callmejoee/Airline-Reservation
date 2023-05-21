@@ -62,3 +62,35 @@ E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Gi
 E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.pdb
 E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.genruntimeconfig.cache
 E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\ref\Airline Reservation.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\Airline Reservation.exe
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\Airline Reservation.deps.json
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\Airline Reservation.runtimeconfig.json
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\Airline Reservation.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\Airline Reservation.pdb
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.AssemblyReference.cache
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Add_Customer.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.addAircraft.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.addFlight.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Loading.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Login.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Properties.Resources.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Ticket.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.View_Customers.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.View_Flights.resources
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.GenerateResource.cache
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.GeneratedMSBuildEditorConfig.editorconfig
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.AssemblyInfoInputs.cache
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.AssemblyInfo.cs
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.CoreCompileInputs.cache
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.csproj.CopyComplete
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\refint\Airline Reservation.dll
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.pdb
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.genruntimeconfig.cache
+D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\ref\Airline Reservation.dll

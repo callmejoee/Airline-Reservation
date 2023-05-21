@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addFlight));
             button1 = new Button();
             label5 = new Label();
             destination = new TextBox();
@@ -45,6 +46,8 @@
             arrival_date = new DateTimePicker();
             label9 = new Label();
             planeID = new TextBox();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -230,11 +233,22 @@
             planeID.Size = new Size(132, 23);
             planeID.TabIndex = 36;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(704, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(48, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 37;
+            pictureBox1.TabStop = false;
+            // 
             // addFlight
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(801, 486);
+            Controls.Add(pictureBox1);
             Controls.Add(planeID);
             Controls.Add(label9);
             Controls.Add(arrival_date);
@@ -256,6 +270,7 @@
             Name = "addFlight";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "addFlight";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -279,5 +294,6 @@
         private DateTimePicker arrival_date;
         private Label label9;
         private TextBox planeID;
+        private PictureBox pictureBox1;
     }
 }

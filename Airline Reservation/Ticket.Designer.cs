@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ticket));
             label1 = new Label();
             comboBox2 = new ComboBox();
             label7 = new Label();
@@ -38,6 +39,8 @@
             label2 = new Label();
             textBox1 = new TextBox();
             label8 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -154,11 +157,23 @@
             label8.TextAlign = ContentAlignment.TopCenter;
             label8.Click += label8_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(703, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(48, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 85;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // Ticket
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 711);
+            Controls.Add(pictureBox1);
             Controls.Add(label8);
             Controls.Add(label2);
             Controls.Add(textBox1);
@@ -173,6 +188,7 @@
             Name = "Ticket";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Class";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -189,5 +205,6 @@
         private Label label2;
         private TextBox textBox1;
         private Label label8;
+        private PictureBox pictureBox1;
     }
 }

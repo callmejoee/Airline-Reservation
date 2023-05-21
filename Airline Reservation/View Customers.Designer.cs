@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(View_Customers));
             label8 = new Label();
             label1 = new Label();
             pass_list = new DataGridView();
@@ -58,7 +59,9 @@
             password = new TextBox();
             button1 = new Button();
             button5 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pass_list).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label8
@@ -374,11 +377,22 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(868, 9);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(48, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 123;
+            pictureBox1.TabStop = false;
+            // 
             // View_Customers
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(965, 725);
+            Controls.Add(pictureBox1);
             Controls.Add(button5);
             Controls.Add(button1);
             Controls.Add(label4);
@@ -415,6 +429,7 @@
             Text = "View_Customers";
             Load += View_Customers_Load;
             ((System.ComponentModel.ISupportInitialize)pass_list).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -450,5 +465,6 @@
         private TextBox password;
         private Button button1;
         private Button button5;
+        private PictureBox pictureBox1;
     }
 }

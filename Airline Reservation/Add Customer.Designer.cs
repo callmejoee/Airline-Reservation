@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Add_Customer));
             label2 = new Label();
             firstName = new TextBox();
             label3 = new Label();
@@ -58,7 +59,9 @@
             label14 = new Label();
             label13 = new Label();
             label15 = new Label();
+            pictureBox1 = new PictureBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label2
@@ -160,7 +163,7 @@
             // 
             button1.BackColor = SystemColors.Highlight;
             button1.Font = new Font("Comic Sans MS", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(329, 409);
+            button1.Location = new Point(284, 409);
             button1.Name = "button1";
             button1.Size = new Size(132, 42);
             button1.TabIndex = 56;
@@ -314,7 +317,7 @@
             // 
             button2.BackColor = SystemColors.Highlight;
             button2.Font = new Font("Comic Sans MS", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Location = new Point(513, 409);
+            button2.Location = new Point(463, 409);
             button2.Name = "button2";
             button2.Size = new Size(224, 42);
             button2.TabIndex = 99;
@@ -395,11 +398,23 @@
             label15.TextAlign = ContentAlignment.TopCenter;
             label15.Click += label15_Click;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(681, 11);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(48, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click_1;
+            // 
             // Add_Customer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(787, 454);
+            Controls.Add(pictureBox1);
             Controls.Add(label15);
             Controls.Add(label13);
             Controls.Add(panel1);
@@ -434,6 +449,7 @@
             Load += Add_Customer_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -469,5 +485,6 @@
         private Label label14;
         private Label label8;
         private Label label15;
+        private PictureBox pictureBox1;
     }
 }

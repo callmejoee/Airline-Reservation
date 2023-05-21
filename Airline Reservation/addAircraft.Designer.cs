@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
+            planeID = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            model = new TextBox();
             label5 = new Label();
-            textBox4 = new TextBox();
+            airline = new TextBox();
             button1 = new Button();
             label4 = new Label();
             SuspendLayout();
@@ -52,12 +52,12 @@
             label1.Text = "Add Aircraft";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
-            // textBox1
+            // planeID
             // 
-            textBox1.Location = new Point(163, 69);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(132, 23);
-            textBox1.TabIndex = 7;
+            planeID.Location = new Point(163, 69);
+            planeID.Name = "planeID";
+            planeID.Size = new Size(132, 23);
+            planeID.TabIndex = 7;
             // 
             // label2
             // 
@@ -86,12 +86,12 @@
             label3.TextAlign = ContentAlignment.TopCenter;
             label3.Click += label3_Click;
             // 
-            // textBox2
+            // model
             // 
-            textBox2.Location = new Point(163, 146);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(132, 23);
-            textBox2.TabIndex = 9;
+            model.Location = new Point(163, 146);
+            model.Name = "model";
+            model.Size = new Size(132, 23);
+            model.TabIndex = 9;
             // 
             // label5
             // 
@@ -107,12 +107,12 @@
             label5.TextAlign = ContentAlignment.TopCenter;
             label5.Click += label5_Click;
             // 
-            // textBox4
+            // airline
             // 
-            textBox4.Location = new Point(163, 213);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(132, 23);
-            textBox4.TabIndex = 13;
+            airline.Location = new Point(163, 213);
+            airline.Name = "airline";
+            airline.Size = new Size(132, 23);
+            airline.TabIndex = 13;
             // 
             // button1
             // 
@@ -123,6 +123,7 @@
             button1.TabIndex = 15;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label4
             // 
@@ -146,11 +147,11 @@
             Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(label5);
-            Controls.Add(textBox4);
+            Controls.Add(airline);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(model);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(planeID);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "addAircraft";
@@ -163,12 +164,12 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox planeID;
         private Label label2;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox model;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox airline;
         private Button button1;
         private Label label4;
     }

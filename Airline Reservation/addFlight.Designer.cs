@@ -30,21 +30,21 @@
         {
             button1 = new Button();
             label5 = new Label();
-            textBox4 = new TextBox();
+            destination = new TextBox();
             label4 = new Label();
-            textBox3 = new TextBox();
+            source = new TextBox();
             label3 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            flightID = new TextBox();
             label1 = new Label();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            textBox7 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
-            comboBox1 = new ComboBox();
+            available_seats = new TextBox();
+            dep_date = new DateTimePicker();
+            arrival_date = new DateTimePicker();
             label9 = new Label();
+            planeID = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -56,6 +56,7 @@
             button1.TabIndex = 25;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label5
             // 
@@ -71,12 +72,12 @@
             label5.TextAlign = ContentAlignment.TopCenter;
             label5.Click += label5_Click;
             // 
-            // textBox4
+            // destination
             // 
-            textBox4.Location = new Point(175, 273);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(132, 23);
-            textBox4.TabIndex = 23;
+            destination.Location = new Point(175, 273);
+            destination.Name = "destination";
+            destination.Size = new Size(132, 23);
+            destination.TabIndex = 23;
             // 
             // label4
             // 
@@ -91,12 +92,12 @@
             label4.Text = "Source";
             label4.TextAlign = ContentAlignment.TopCenter;
             // 
-            // textBox3
+            // source
             // 
-            textBox3.Location = new Point(175, 205);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(132, 23);
-            textBox3.TabIndex = 21;
+            source.Location = new Point(175, 205);
+            source.Name = "source";
+            source.Size = new Size(132, 23);
+            source.TabIndex = 21;
             // 
             // label3
             // 
@@ -125,12 +126,12 @@
             label2.TextAlign = ContentAlignment.TopCenter;
             label2.Click += label2_Click;
             // 
-            // textBox1
+            // flightID
             // 
-            textBox1.Location = new Point(175, 59);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(132, 23);
-            textBox1.TabIndex = 17;
+            flightID.Location = new Point(175, 59);
+            flightID.Name = "flightID";
+            flightID.Size = new Size(132, 23);
+            flightID.TabIndex = 17;
             // 
             // label1
             // 
@@ -186,35 +187,27 @@
             label8.TextAlign = ContentAlignment.TopCenter;
             label8.Click += label8_Click;
             // 
-            // textBox7
+            // available_seats
             // 
-            textBox7.Location = new Point(580, 221);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(132, 23);
-            textBox7.TabIndex = 30;
-            textBox7.TextChanged += textBox7_TextChanged;
+            available_seats.Location = new Point(580, 221);
+            available_seats.Name = "available_seats";
+            available_seats.Size = new Size(132, 23);
+            available_seats.TabIndex = 30;
+            available_seats.TextChanged += textBox7_TextChanged;
             // 
-            // dateTimePicker1
+            // dep_date
             // 
-            dateTimePicker1.Location = new Point(561, 70);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 32;
+            dep_date.Location = new Point(561, 70);
+            dep_date.Name = "dep_date";
+            dep_date.Size = new Size(200, 23);
+            dep_date.TabIndex = 32;
             // 
-            // dateTimePicker2
+            // arrival_date
             // 
-            dateTimePicker2.Location = new Point(561, 130);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(200, 23);
-            dateTimePicker2.TabIndex = 33;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(175, 136);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(132, 23);
-            comboBox1.TabIndex = 34;
+            arrival_date.Location = new Point(561, 130);
+            arrival_date.Name = "arrival_date";
+            arrival_date.Size = new Size(200, 23);
+            arrival_date.TabIndex = 33;
             // 
             // label9
             // 
@@ -230,27 +223,34 @@
             label9.TextAlign = ContentAlignment.TopCenter;
             label9.Click += label9_Click;
             // 
+            // planeID
+            // 
+            planeID.Location = new Point(175, 130);
+            planeID.Name = "planeID";
+            planeID.Size = new Size(132, 23);
+            planeID.TabIndex = 36;
+            // 
             // addFlight
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(801, 486);
+            Controls.Add(planeID);
             Controls.Add(label9);
-            Controls.Add(comboBox1);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(arrival_date);
+            Controls.Add(dep_date);
             Controls.Add(label8);
-            Controls.Add(textBox7);
+            Controls.Add(available_seats);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(button1);
             Controls.Add(label5);
-            Controls.Add(textBox4);
+            Controls.Add(destination);
             Controls.Add(label4);
-            Controls.Add(textBox3);
+            Controls.Add(source);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(flightID);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "addFlight";
@@ -264,20 +264,20 @@
 
         private Button button1;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox destination;
         private Label label4;
-        private TextBox textBox3;
+        private TextBox source;
         private Label label3;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox flightID;
         private Label label1;
         private Label label6;
         private Label label7;
         private Label label8;
-        private TextBox textBox7;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
-        private ComboBox comboBox1;
+        private TextBox available_seats;
+        private DateTimePicker dep_date;
+        private DateTimePicker arrival_date;
         private Label label9;
+        private TextBox planeID;
     }
 }

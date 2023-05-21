@@ -70,7 +70,10 @@ namespace Airline_Reservation
                     Console.WriteLine("Error");
                     MessageBox.Show(ex.Message);
                 }
-
+                finally
+                {
+                    newCon.Close();
+                }
             }
         }
 

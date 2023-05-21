@@ -10,6 +10,9 @@
     <Compile Update="addFlight.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Loading.cs">
       <SubType>Form</SubType>
     </Compile>

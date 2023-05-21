@@ -88,7 +88,7 @@ namespace Airline_Reservation
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Home home = new Home();
+            adminHome home = new adminHome();
             home.Show();
             this.Hide();
         }

@@ -113,7 +113,7 @@ namespace Airline_Reservation
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            Home home = new Home();
+            adminHome home = new adminHome();
             home.Show();
             this.Hide();
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Airline_Reservation
 {
-    public partial class Home : Form
+    public partial class adminHome : Form
     {
-        public Home()
+        public adminHome()
         {
             InitializeComponent();
         }

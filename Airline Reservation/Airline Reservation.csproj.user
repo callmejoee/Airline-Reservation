@@ -10,7 +10,7 @@
     <Compile Update="addFlight.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Home.cs">
+    <Compile Update="adminHome.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Loading.cs">
@@ -20,6 +20,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Ticket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="userHome.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="View Customers.cs">

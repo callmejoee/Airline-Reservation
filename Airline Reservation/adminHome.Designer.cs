@@ -1,6 +1,6 @@
 ﻿namespace Airline_Reservation
 {
-    partial class Home
+    partial class adminHome
     {
         /// <summary>
         /// Required designer variable.
@@ -129,7 +129,7 @@
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
             // 
-            // Home
+            // adminHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -144,7 +144,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Home";
+            Name = "adminHome";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Home";
             ResumeLayout(false);

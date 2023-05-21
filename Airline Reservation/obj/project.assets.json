@@ -541,19 +541,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\APPLE\\.nuget\\packages\\": {}
+    "C:\\Users\\eng abdulrhman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj",
+      "projectUniqueName": "D:\\githupdesk\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
       "projectName": "Airline Reservation",
-      "projectPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\Airline Reservation.csproj",
-      "packagesPath": "C:\\Users\\APPLE\\.nuget\\packages\\",
-      "outputPath": "E:\\Uni\\FCAI 2025\\Second year\\Second semester\\Database\\Airline reservation app\\Git\\Airline Reservation\\obj\\",
+      "projectPath": "D:\\githupdesk\\Airline-Reservation\\Airline Reservation\\Airline Reservation.csproj",
+      "packagesPath": "C:\\Users\\eng abdulrhman\\.nuget\\packages\\",
+      "outputPath": "D:\\githupdesk\\Airline-Reservation\\Airline Reservation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\APPLE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eng abdulrhman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

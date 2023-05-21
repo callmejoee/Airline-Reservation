@@ -70,10 +70,7 @@ namespace Airline_Reservation
                     Console.WriteLine("Error");
                     MessageBox.Show(ex.Message);
                 }
-                finally
-                {
-                    newCon.Close();
-                }
+
             }
         }
 
@@ -87,6 +84,26 @@ namespace Airline_Reservation
             View_Customers view = new View_Customers();
             view.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ssn_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

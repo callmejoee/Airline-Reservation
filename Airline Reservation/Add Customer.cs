@@ -105,5 +105,10 @@ namespace Airline_Reservation
         {
 
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

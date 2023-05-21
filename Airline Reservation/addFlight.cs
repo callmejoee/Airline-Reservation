@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
+using System.Diagnostics.Metrics;
+using System.Runtime.Intrinsics.X86;
 
 namespace Airline_Reservation
 {
@@ -16,7 +20,7 @@ namespace Airline_Reservation
         {
             InitializeComponent();
         }
-
+        SqlConnection newCon = new SqlConnection("Data Source=DESKTOP-IGR9GMI;Initial Catalog=FlightReservationSystem;Integrated Security=True");
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -44,6 +48,42 @@ namespace Airline_Reservation
         private void label9_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (flightID.Text == "" || planeID.Text == "" || source.Text == "" || destination.Text == "" || available_seats.Text == "")
+            {
+                MessageBox.Show("Please enter all info");
+            }
+            else
+            {
+                try
+                {
+                    newCon.Open();
+                    string query = "INSERT INTO dbo.FLIGHT values('" + flightID.Text + "', '" + planeID.Text + "', '" + "A0001','" + source.Text + "', '" + destination.Text + "', '"
+                    + dep_date.Value + "', '" + arrival_date.Value + "', '" + int.Parse(available_seats.Text) + "')";
+                    SqlCommand cmd = new SqlCommand(query, newCon);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Flight Recorded Successfully");
+                    newCon.Close();
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error");
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    newCon.Close();
+                }
+            }
         }
     }
 }

@@ -107,6 +107,10 @@ namespace Airline_Reservation
                 {
                     MessageBox.Show(ex.Message);
                 }
+                finally
+                {
+                    newCon.Close();
+                }
             }
         }
 

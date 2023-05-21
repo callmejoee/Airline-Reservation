@@ -109,7 +109,7 @@
             button4.Name = "button4";
             button4.Size = new Size(132, 42);
             button4.TabIndex = 80;
-            button4.Text = "Back";
+            button4.Text = "Add";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
@@ -386,6 +386,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 123;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // View_Customers
             // 

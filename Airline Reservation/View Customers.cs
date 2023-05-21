@@ -170,5 +170,12 @@ namespace Airline_Reservation
             gender.Text = pass_list.SelectedRows[0].Cells[9].Value.ToString();
             nationality.Text = pass_list.SelectedRows[0].Cells[10].Value.ToString();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
     }
 }

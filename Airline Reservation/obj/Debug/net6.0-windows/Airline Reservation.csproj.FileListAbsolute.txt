@@ -94,3 +94,4 @@ D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\r
 D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.pdb
 D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\Airline Reservation.genruntimeconfig.cache
 D:\githupdesk\Airline-Reservation\Airline Reservation\obj\Debug\net6.0-windows\ref\Airline Reservation.dll
+E:\Uni\FCAI 2025\Second year\Second semester\Database\Airline reservation app\Git\Airline Reservation\obj\Debug\net6.0-windows\Airline_Reservation.Home.resources

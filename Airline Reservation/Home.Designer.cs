@@ -36,6 +36,7 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
+            button7 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -66,6 +67,7 @@
             button1.TabIndex = 2;
             button1.Text = "Add Passenger";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -75,6 +77,7 @@
             button2.TabIndex = 3;
             button2.Text = "Add Aircraft";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -84,6 +87,7 @@
             button3.TabIndex = 4;
             button3.Text = "View Flights";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -93,6 +97,7 @@
             button4.TabIndex = 5;
             button4.Text = "Add flight";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -102,6 +107,7 @@
             button5.TabIndex = 6;
             button5.Text = "Book a ticket";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -111,12 +117,24 @@
             button6.TabIndex = 7;
             button6.Text = "Logout";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(79, 392);
+            button7.Name = "button7";
+            button7.Size = new Size(148, 23);
+            button7.TabIndex = 8;
+            button7.Text = "View Passengers";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(898, 491);
+            Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -143,5 +161,6 @@
         private Button button4;
         private Button button5;
         private Button button6;
+        private Button button7;
     }
 }
